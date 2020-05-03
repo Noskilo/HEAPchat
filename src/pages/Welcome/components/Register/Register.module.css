@@ -1,0 +1,61 @@
+.registerContainer {
+  padding: 1rem;
+}
+
+.registerForm {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 1fr;
+  grid-template-rows: 5rem 5rem 5rem 1fr;
+}
+
+.registerForm input {
+  display: block;
+  height: 3rem;
+  outline: none;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: black;
+  border-radius: 5px;
+  padding: 0.25rem 1rem 0 1rem;
+  font-size: 1.2rem;
+  box-sizing: border-box;
+  width: 100%;
+
+  border-bottom: 3px solid rgba(0, 0, 0, 0);
+  transition: border-color 100ms ease-in;
+}
+
+.registerForm input:focus {
+  border-bottom: 3px solid var(--color3);
+}
+
+.registerForm label {
+  font-weight: bold;
+}
+
+.registerButton {
+  display: inline-block;
+  background-image: linear-gradient(90deg, var(--color1), var(--color3));
+  color: var(--color3-contrast);
+  padding: 1rem;
+  border: 0;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+  user-select: none;
+  outline: none;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  font-size: 1rem;
+  margin: 0;
+  margin-bottom: 1rem;
+  color: var(--color4);
+}

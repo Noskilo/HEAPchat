@@ -1,0 +1,26 @@
+.infoMessage {
+  position: absolute;
+  left: 120%;
+  top: 100%;
+  padding: 0.3rem;
+  background-color: white;
+  user-select: none;
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+
+  font-size: 0.8rem;
+  min-width: 8rem;
+  font-weight: normal;
+
+  border-radius: 0.2rem;
+
+  text-align: justify;
+
+  transform: translateY(calc(-50% - 0.8rem / 2));
+
+  transition: opacity 300ms ease;
+  pointer-events: none;
+
+  z-index: 3;
+}
